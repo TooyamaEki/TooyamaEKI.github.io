@@ -9,7 +9,7 @@
     <meta name="description" content="准备好了吗，开始Hexo之旅Hexo是静态站点生成框架，本地运行编译基于node.js。可直接使用Mackdown语法撰写博文。并且可以直接将编译好的文件上传githun等代码托管平台提供预览。拥有多样主题提供更换。 准备开始之前需要做一下以下准备：  安装Node.js ，需要用到Node进行编译； 安装Git 使用该工具上传到github等平台上；  注册GitHub等仓库账号 用于存放项目">
 <meta property="og:type" content="article">
 <meta property="og:title" content="开始使用Hexo吧！">
-<meta property="og:url" content="https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/index.html">
+<meta property="og:url" content="http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/index.html">
 <meta property="og:site_name" content="Tooyama | 前端 | WEB">
 <meta property="og:description" content="准备好了吗，开始Hexo之旅Hexo是静态站点生成框架，本地运行编译基于node.js。可直接使用Mackdown语法撰写博文。并且可以直接将编译好的文件上传githun等代码托管平台提供预览。拥有多样主题提供更换。 准备开始之前需要做一下以下准备：  安装Node.js ，需要用到Node进行编译； 安装Git 使用该工具上传到github等平台上；  注册GitHub等仓库账号 用于存放项目">
 <meta property="og:locale" content="zh_CN">
@@ -17,26 +17,27 @@
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20210501151456549.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3NzE1NjM5,size_16,color_FFFFFF,t_70">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20210501151600842.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3NzE1NjM5,size_16,color_FFFFFF,t_70">
 <meta property="article:published_time" content="2021-05-01T07:19:00.000Z">
-<meta property="article:modified_time" content="2021-05-01T07:21:31.820Z">
+<meta property="article:modified_time" content="2021-05-01T12:46:59.093Z">
 <meta property="article:author" content="Tooyama">
-<meta property="article:tag" content="Tooyama ,唐振业 ,振业 ,唐 , 前端, WEB , 前端博客, web前端博客, 前端模块化, 前端工程化, 前端数据监控, 性能优化, 网页制作, 前端, js, html5, css, 踩坑小报告, 微前端, 树莓派, 前端开发, 网络,Vue.js, node.js">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img-blog.csdnimg.cn/20210501151357139.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3NzE1NjM5,size_16,color_FFFFFF,t_70">
     
     
       
         
-          <link rel="shortcut icon" href="https://tooyamaeki.github.io/images/favicon.ico">
+          <link rel="shortcut icon" href="/images/favicon.ico">
         
       
       
         
-          <link rel="icon" type="image/png" href="https://tooyamaeki.github.io/images/favicon-192x192.png" sizes="192x192">
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
         
       
       
         
-          <link rel="apple-touch-icon" sizes="180x180" href="https://tooyamaeki.github.io/images/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
         
       
     
@@ -44,7 +45,7 @@
     <title>开始使用Hexo吧！</title>
     <!-- styles -->
     
-<link rel="stylesheet" href="https://tooyamaeki.github.io/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
     <!-- persian styles -->
     
@@ -65,19 +66,21 @@
     <span id="nav">
       <ul>
          
-          <li><a href="https://tooyamaeki.github.io/">首页</a></li>
+          <li><a href="/">首页</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/about/">关于</a></li>
+          <li><a href="/about/">关于</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/archives/">归档</a></li>
+          <li><a href="/archives/">归档</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/projects_url">项目</a></li>
+          <li><a href="/projects_url">项目</a></li>
         
       </ul>
     </span>
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" aria-label="上一篇 " href="/2021/05/02/%E5%BC%80%E5%A7%8B%E9%83%A8%E7%BD%B2Hexo%E5%90%A7%EF%BC%81/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" aria-label="返回顶部 " href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
@@ -91,17 +94,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&text=开始使用Hexo吧！"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&is_video=false&description=开始使用Hexo吧！"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=开始使用Hexo吧！&body=Check out this article: https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&name=开始使用Hexo吧！&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&t=开始使用Hexo吧！"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&text=开始使用Hexo吧！"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&is_video=false&description=开始使用Hexo吧！"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=开始使用Hexo吧！&body=Check out this article: http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&name=开始使用Hexo吧！&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&t=开始使用Hexo吧！"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -137,8 +140,18 @@
 
 
       
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/hexo/">hexo</a>
+    </div>
+
 
       
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a>, <a class="tag-link-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a>
+    </div>
+
 
     </div>
   </header>
@@ -180,13 +193,13 @@
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="https://tooyamaeki.github.io/">首页</a></li>
+          <li><a href="/">首页</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/about/">关于</a></li>
+          <li><a href="/about/">关于</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/archives/">归档</a></li>
+          <li><a href="/archives/">归档</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/projects_url">项目</a></li>
+          <li><a href="/projects_url">项目</a></li>
         
       </ul>
     </div>
@@ -197,17 +210,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&text=开始使用Hexo吧！"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&is_video=false&description=开始使用Hexo吧！"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=开始使用Hexo吧！&body=Check out this article: https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&name=开始使用Hexo吧！&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://tooyamaeki.github.io/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&t=开始使用Hexo吧！"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&text=开始使用Hexo吧！"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&is_video=false&description=开始使用Hexo吧！"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=开始使用Hexo吧！&body=Check out this article: http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&title=开始使用Hexo吧！"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&name=开始使用Hexo吧！&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2021/05/01/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo%E5%90%A7/&t=开始使用Hexo吧！"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -235,13 +248,13 @@
     <nav>
       <ul>
          
-          <li><a href="https://tooyamaeki.github.io/">首页</a></li>
+          <li><a href="/">首页</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/about/">关于</a></li>
+          <li><a href="/about/">关于</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/archives/">归档</a></li>
+          <li><a href="/archives/">归档</a></li>
          
-          <li><a href="https://tooyamaeki.github.io/projects_url">项目</a></li>
+          <li><a href="/projects_url">项目</a></li>
         
       </ul>
     </nav>
@@ -289,7 +302,7 @@
   </script>
 
 
-<script src="https://tooyamaeki.github.io/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 <!-- search -->
 
